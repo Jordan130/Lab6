@@ -75,7 +75,6 @@ bloggerApp.controller('BlogListController', function($http, authentication) {
         });
 });
 
-
 // Blog Add Controller
 bloggerApp.controller('BlogAddController', function($http, $location) {
     var vm = this;
